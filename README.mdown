@@ -1,0 +1,16 @@
+This package wil remove any existing profiles on the Mac and then enroll the Mac with your server.
+
+The Makefile needs [The Luggage](https://github.com/unixorn/luggage) to build the package, but the postflight script could be used with your solution of choice.
+
+Ready?
+
+1.	Create a new enrollment profile
+2. Give your enrollement profile a name
+3. Download the trust profile
+4. Download the enrollment profile
+
+[![Profile Manager](img/profile_enrollment_and_trust-thumb.jpg)](img/profile_enrollment_and_trust-full.jpg)
+
+Rename your enrollment profile to enroll.mobileconfig and the trust profile to trust.mobileconfig, copy them to the repo directory and run a quick `make pkg`
+	
+You're done.

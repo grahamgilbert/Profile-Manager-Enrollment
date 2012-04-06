@@ -1,0 +1,10 @@
+#!/bin/sh
+
+##remove the existing profiles
+/usr/bin/profiles -D -f
+
+##install trust profile
+/usr/bin/profiles -I -F /tmp/trust.mobileconfig
+
+#install enrollment profile
+/usr/bin/profiles -I -F /tmp/enroll.mobileconfig
