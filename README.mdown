@@ -9,7 +9,7 @@ Ready?
 3. Download the trust profile
 4. Download the enrollment profile
 
-[![Profile Manager][https://github.com/grahamgilbert/Profile-Manager-Enrollment/raw/master/img/profile_enrollment_and_trust-thumb.jpg](https://github.com/grahamgilbert/Profile-Manager-Enrollment/blob/master/img/profile_enrollment_and_trust-full.jpg)
+[Follow the steps](https://github.com/grahamgilbert/Profile-Manager-Enrollment/blob/master/img/profile_enrollment_and_trust-full.jpg)
 
 Rename your enrollment profile to enroll.mobileconfig and the trust profile to trust.mobileconfig, copy them to the repo directory and run a quick `make pkg`
 	
